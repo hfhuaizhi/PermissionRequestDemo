@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfhuaizhi.permissionlib">
+    <application>
+        <service
+            android:name="com.hfhuaizhi.permissionlib.util.RequestPermissionService"
+            android:enabled="true"
+            android:exported="true"/>
+        <activity
+            android:name="com.hfhuaizhi.permissionlib.util.RequestPermissionActivity"
+            android:theme="@style/RequestLocation" />
+    </application>
+
+</manifest>
